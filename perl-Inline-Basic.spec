@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	Basic
-Summary:	Inline::Basic perl module
-Summary(pl):	Modu³ perla Inline::Basic
+%define		pdir	Inline
+%define		pnam	Basic
+Summary:	Inline::Basic Perl module
+Summary(cs):	Modul Inline::Basic pro Perl
+Summary(da):	Perlmodul Inline::Basic
+Summary(de):	Inline::Basic Perl Modul
+Summary(es):	Módulo de Perl Inline::Basic
+Summary(fr):	Module Perl Inline::Basic
+Summary(it):	Modulo di Perl Inline::Basic
+Summary(ja):	Inline::Basic Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Basic ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::Basic
+Summary(pl):	Modu³ Perla Inline::Basic
+Summary(pt):	Módulo de Perl Inline::Basic
+Summary(pt_BR):	Módulo Perl Inline::Basic
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Basic
+Summary(sv):	Inline::Basic Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Basic
+Summary(zh_CN):	Inline::Basic Perl Ä£¿é
 Name:		perl-Inline-Basic
 Version:	0.01
 Release:	1
@@ -29,6 +47,7 @@ Modu³ Inline::Basic - pozwalaj±cy na pisanie procedur Perla w Basicu.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
