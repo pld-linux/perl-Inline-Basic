@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::Basic
 Summary(it):	Modulo di Perl Inline::Basic
 Summary(ja):	Inline::Basic Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Basic ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Basic
+Summary(nb):	Perlmodul Inline::Basic
 Summary(pl):	Modu³ Perla Inline::Basic
 Summary(pt):	Módulo de Perl Inline::Basic
 Summary(pt_BR):	Módulo Perl Inline::Basic
