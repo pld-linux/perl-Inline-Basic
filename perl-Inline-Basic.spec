@@ -45,7 +45,7 @@ Modu³ Inline::Basic - pozwalaj±cy na pisanie procedur Perla w Basicu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
