@@ -31,7 +31,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-IO-stringy >= 2.104
 BuildRequires:	perl-Inline >= 0.43
 BuildRequires:	perl-Language-Basic >= 1.44
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
