@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::Basic Perl Ä£¿é
 Name:		perl-Inline-Basic
 Version:	0.01
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68c9f06777d68133b5ebcdea3bba0f44
