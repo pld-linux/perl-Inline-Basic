@@ -47,7 +47,7 @@ Modu³ Inline::Basic - pozwalaj±cy na pisanie procedur Perla w Basicu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
