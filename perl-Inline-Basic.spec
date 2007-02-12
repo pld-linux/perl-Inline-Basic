@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Basic
 Summary:	Inline::Basic Perl module
-Summary(cs):	Modul Inline::Basic pro Perl
-Summary(da):	Perlmodul Inline::Basic
-Summary(de):	Inline::Basic Perl Modul
-Summary(es):	MÛdulo de Perl Inline::Basic
-Summary(fr):	Module Perl Inline::Basic
-Summary(it):	Modulo di Perl Inline::Basic
-Summary(ja):	Inline::Basic Perl •‚•∏•Â°º•Î
-Summary(ko):	Inline::Basic ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Inline::Basic
-Summary(pl):	Modu≥ Perla Inline::Basic
-Summary(pt):	MÛdulo de Perl Inline::Basic
-Summary(pt_BR):	MÛdulo Perl Inline::Basic
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::Basic
-Summary(sv):	Inline::Basic Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Inline::Basic
-Summary(zh_CN):	Inline::Basic Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Inline::Basic pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::Basic
+Summary(de.UTF-8):   Inline::Basic Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Inline::Basic
+Summary(fr.UTF-8):   Module Perl Inline::Basic
+Summary(it.UTF-8):   Modulo di Perl Inline::Basic
+Summary(ja.UTF-8):   Inline::Basic Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Inline::Basic ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Inline::Basic
+Summary(pl.UTF-8):   Modu≈Ç Perla Inline::Basic
+Summary(pt.UTF-8):   M√≥dulo de Perl Inline::Basic
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Inline::Basic
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::Basic
+Summary(sv.UTF-8):   Inline::Basic Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Inline::Basic
+Summary(zh_CN.UTF-8):   Inline::Basic Perl Ê®°Âùó
 Name:		perl-Inline-Basic
 Version:	0.01
 Release:	3
@@ -41,8 +41,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::Basic - Write Perl subroutines in Basic.
 
-%description -l pl
-Modu≥ Inline::Basic - pozwalaj±cy na pisanie procedur Perla w Basicu.
+%description -l pl.UTF-8
+Modu≈Ç Inline::Basic - pozwalajƒÖcy na pisanie procedur Perla w Basicu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
