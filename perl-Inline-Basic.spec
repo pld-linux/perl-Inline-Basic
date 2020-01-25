@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	Basic
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::Basic Perl module
 Summary(cs.UTF-8):	Modul Inline::Basic pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::Basic
